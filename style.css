@@ -1,0 +1,328 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Ancizar Sans", sans-serif;
+}
+
+#container {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(98, 111, 98);
+    color: white;
+    position: relative;
+}
+
+.list-items {
+    list-style: none;
+    display: inline;
+    margin: 0px 20px;
+}
+ul{
+    padding-top: 20px;
+}
+
+.links {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+#mainhead{
+    color: rgb(210, 212, 212);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navhead {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(98, 111, 98);
+}
+
+#nav1 {
+    margin-right: 10px;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#nav2 {
+    margin-left: 10px;
+}
+
+.links:hover {
+    text-decoration: underline;
+    color: darkslategrey;
+}
+
+#home {
+    width: 100%;
+    height: 675px;
+    background-color: rgb(142, 137, 137);
+}
+
+#content {
+    width: 100%;
+    padding-top: 40px;
+}
+
+.homcont {
+    margin-left: 100px;
+    padding-top: 90px;
+    
+}
+
+#mainhead {
+    font-size: 100px;
+}
+
+#subhead {
+    font-size: 50px;
+}
+
+#lname {
+    color: darkslategrey;
+}
+
+#download {
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+#about {
+    width: 100%;
+    height: 720px;
+    background-color: darkslategrey;
+    padding-top: 65px;
+}
+
+#aboutimg {
+    padding-top: 20px;
+    width: 200px;
+    height: 220px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 660px;
+}
+.para{
+    width: 100%;
+}
+
+#aboutcont {
+    display: flex;
+    text-align: center;
+    padding-top: 40px;
+    line-height: 25px;
+    font-size: 17px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.information {
+    width: 100%;
+    height: 380px;
+
+}
+
+.infobox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+    font-size: 18px;
+
+}
+
+.brand {
+    margin-right: 8px;
+}
+
+.brands {
+    color: white;
+    text-decoration: none;
+}
+
+#skills {
+    width: 100%;
+    height: 725px;
+    background-image: linear-gradient(grey, #f4f4f4);
+    color: black;
+}
+
+.sectionHead {
+    font-size: 25px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 100px;
+
+}
+
+.progressBar {
+    width: 1000px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 50px;
+    line-height: 50px;
+    padding-bottom: 80px;
+    padding-left: 500px;
+}
+
+.bars {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 1rem 0px;
+}
+
+.baseBar {
+    width: 100%;
+    height: 0.5rem;
+    background-color: rgb(19, 14, 14);
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0px;
+}
+
+.barHead,.barPercentage {
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.htmlBar {
+    background-color: white;
+    width: 80%;
+}
+
+.cssBar {
+    background-color: white;
+    width: 76%;
+}
+
+.pythonBar {
+    background-color: white;
+    width: 65%;
+}
+
+.cBar {
+    background-color: white;
+    width: 60%;
+}
+
+#journey {
+    width: 100%;
+    height: 100vh;
+    color: black;
+    background-image: linear-gradient(darkslategrey, grey);
+}
+.journeyhd{
+    padding-top: 6%;
+    padding-bottom: 30px;
+}
+.column{
+    width: 300px;
+}
+.card{
+    width: 500px;
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(103, 36, 36, 0.1);
+    line-height: 25px;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+    padding-right: 120px;
+}
+.card ul{
+    padding-left: 20px;
+}
+.edu{
+    padding-bottom: 25px;
+    padding-left: 190px;
+}
+.day{
+    font-size: 15px;
+}
+#contact{
+    width: 100%;
+    height:auto;
+    background-image: linear-gradient(#f4f4f4, darkslategrey);
+    color: black;
+}
+
+.iconCollections{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10px;
+}
+.footlink{
+    color: black;
+    font-size: 2rem;
+}
+.icon:hover {
+    background-image: linear-gradient(grey,darkslategrey);
+}
+.icon:hover .footlink{
+    color: white;
+    animation: rotate 3s;
+}
+@keyframes rotate{
+0%{
+    transform: rotate(30deg)
+}
+20%{
+    transform: rotate(-30deg)
+}40%{
+    transform: rotate(30deg)
+}60%{
+    transform: rotate(-30deg)
+}80%{
+    transform: rotate(30deg)
+}100%{
+    transform: rotate(-30deg)
+}
+}
+footer{
+    background-color: rgb(35, 74, 74);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#copyright{
+    text-align: center;
+    font-weight: 600;
+    color: black;
+}
+
+
+
